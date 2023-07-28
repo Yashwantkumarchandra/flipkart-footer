@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLipkart-Footer</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+      footer {
+        background-color: rgb(23, 35, 55);
+        color: white;
+        height: 400px;
+        padding: 10px;
+        display: grid;
+        grid-template-rows: 6fr 1fr;
+      }
+      .upper-row {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+      }
+      .left-panel {
+        display: grid;
+        grid-template-columns: repeat(4, 3fr);
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+      }
+      .right-panel {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        padding-left: 30px;
+        border-bottom: 1px solid white;
+      }
+      .about {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        gap: 5px;
+      }
+      .help {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .consumer {
+        display: grid;
+        grid-template-columns: 5px;
+      }
+      .social {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .mail {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .register {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .advertise {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        gap: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <footer>
+      <div class="upper-row">
+        <div class="left-panel">
+          <div class="about">
+            About <span> Contact us </span> <span>About Us </span
+            ><span>Careers </span><span>Flipkart Stories </span>
+            <span>Press </span><span>Flipkart </span><span> Wholesale</span
+            ><span>Corporate</span>
+            <span>Information</span>
+          </div>
+          <div class="help">
+            Help <span>Payments</span><span>Shipping</span
+            ><span>Cancellation & Returns</span><span>FAQ</span
+            ><span>Report</span><span>Infringement</span>
+          </div>
+          <div class="consumer">
+            Consumer Policy <span>Terms and Conditions</span
+            ><span>Security </span><span>Privacy</span><span>Sitemap</span
+            ><span>Grievance</span><span>Redressal</span
+            ><span>EPR Comliance</span>
+          </div>
+          <div class="social">
+            Social
+            <span class="bi bi-youtube"> </span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-facebook"></span>
+          </div>
+        </div>
+        <div class="right-panel">
+          <div class="mail">
+            Mail-us
+            <span
+              >Flipkart Internet Private Limited, Buildings Alyssa, Begonia &
+              Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
+              Village, Bengaluru, 560103, Karnataka, India</span
+            >
+          </div>
+          <div class="register">
+            Register Office
+            <span
+              >Flipkart Internet Private Limited, Buildings Alyssa, Begonia &
+              Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli
+              Village, Bengaluru, 560103, Karnataka, India CIN :
+              U51109KA2012PTC066107 Telephone: 044-45614700</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="advertise">
+        <span class="bi bi-bag-fill"> Become a seller</span
+        ><span class="bi bi-star-fill"> Advertise</span
+        ><span class="bi bi-gift-fill"> Gifts card</span>
+        <span class="bi bi-question-circle"> Help </span
+        ><span class="bi bi-c-circle"> 2007-2023 Flipkart.com</span
+        ><span></span>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopper</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <style>
+      header {
+        display: grid;
+        height: 100px;
+        grid-template-rows: 3fr 3fr;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .upper-header{
+        background-color: rgb(245,245,245);
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        
+      }
+       .upper-header .upper-header1 span{
+        gap: 20px;
+      }
+      .lower-header{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      .shopper{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+    
+      }
+      .home-middle{
+        
+        padding: 10px;
+      }
+      header div span{
+        margin-right: 17px;
+        font-weight: bolder;
+    
+      }
+    .lower-header div span{
+        margin-right: 20px;
+        font-weight: bolder;
+    
+    }
+    .background-same{
+        background-color: rgb(245,245,245);
+        border: none;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="upper-header">
+        <div class="upper-header1">
+          <span>Free Shipping Worldwide</span
+          ><span
+            ><select name="country" class="background-same">
+                 <option value="usd" >USA</option>
+              <option value="Canada">Canada</option>
+              <option value="India">India</option>
+            </select></span
+          ><span>
+            <select name="currency" class="background-same">
+              <option value="usd">USD</option>
+              <option value="inr">INR</option>
+            </select> </span
+          ><span>
+            <select name="language" class="background-same">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+           </select>
+          </span>
+        </div>
+        <div class="upper-header2">
+            <span>Shipping</span><span>FAQ</span><span>Contact</span>
+        </div>
+        <div class="upper-header3">
+            <span class="bi-facebook"></span><span class="bi-twitter"></span>
+            <span class="bi-instagram"></span><span class="bi-youtube"></span>
+        </div>
+      </div>
+      <div class="lower-header">
+        <div class="shopper"><b>Shopper.</b></div>
+        <div class="home-middle">
+          <span>Home</span><span>Catalog</span><span>Shop</span
+          ><span>Pages</span><span>Blog</span><span>Docs</span>
+        </div>
+        <div class="lower-header1">
+          <span class="bi bi-search"></span><span class="bi bi-person"></span
+          ><span class="bi bi-heart"></span><span class="bi bi-cart4"></span>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
